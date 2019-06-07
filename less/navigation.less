@@ -8,10 +8,30 @@
     align-content: center;
     position: fixed;
 
-    .navBrand {
+    .navBrand h1 {
         font-size: 4.3rem;
         padding: 2rem 0;
     }
+
+    .navBrand {
+        text-align: center;
+        
+        background: linear-gradient(to right, #fff 0%, #c2ebfc 10%, #abd9ed 20%, #92d8f6 40%, #7298a9 60%, #106488 80%);
+        background-size: 200% auto;
+        
+        color: #000;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        animation: shine 2s linear infinite;
+        @keyframes shine {
+          to {
+            background-position: 200% center;
+          }
+        }
+      }
 
     .navLinks {
      width: 100%;
