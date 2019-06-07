@@ -204,8 +204,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .intro img {
+.home .intro video {
   margin-top: 12rem;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
